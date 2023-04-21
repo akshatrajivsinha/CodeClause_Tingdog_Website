@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baloo+Da+2:wght@600&family=Charis+SIL:ital,wght@0,700;1,700&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baloo+Da+2:wght@600&family=Charis+SIL:ital,wght@0,700;1,700&family=Montserrat:ital,wght@1,300&family=Ubuntu:ital@1&display=swap');
+body{
+    font-family:'Montserrat-Black', sans-serif; ;
+}
+#title{
+    background-color:#ff4c68;
+    color:white;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 5em;
+}
+#testimonials h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    color:white;
+    font-size:35px
+}
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 100;
+}
+.container-fluid{
+    padding: 3% 13%;
+}
+
+/* NAVBARCSS */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 40px;
+}
+.navbar-item{
+    padding: 0 20px;
+}
+.navbar-link{
+    font-size: 20px;
+    color: grey;
+}
+.col-lg-6 img{
+    transform: rotate(25deg);
+    position: absolute;
+    height: 660px;
+    right: 20%;
+}
+.col-lg-6 button{
+    margin: 20px 20px 10px;
+}
+
+#features{
+    text-align: center;
+    padding: 17% 0 5%;
+    position: relative;
+    background-color: white;
+}
+p{
+   color: rgb(82, 83, 84); 
+}
+
+.icon{
+    color:rgb(242, 161, 242);
+
+}
+.icon:hover{
+    color:fuchsia;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 10%;
+
+}
+#testimonials img{
+    width: 5%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 30px 20px 30px;
+}
+
+.press-logo{
+    width: 20%;
+    padding: 50px 10px 50px;
+}
+
+#pricing{
+    text-align: center;
+}
+#pricing h2{
+    font-family:'Montserrat-Bold', sans-serif;
+}
+
+#pricing .row{
+    padding: 40px;
+}
+.card{
+    margin: 5px;
+}
+
+@media (max-width:1000px){
+    .col-lg-6 img{
+        position: static;
+        height: 400px;
+        transform: rotate(0);
+
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 40px;
+}
+#cta h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: white;
+    
+}
+
+#cta button{
+    margin: 20px 15px;
+}
+
+#footer{
+    text-align: center;
+    padding: 30px 0 0;
+}
